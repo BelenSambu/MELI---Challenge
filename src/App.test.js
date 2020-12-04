@@ -6,13 +6,6 @@ const {
 const axios = require("axios").default;
 
 describe("getItemsList", () => {
-    it("should test result 404", () => {
-        axios.get = jest.fn().mockImplementation(() => ({ status: 404 }));
-
-        getItemsList("").then(result => {
-        expect(result.status).toBe(404);
-        });
-    });
 
     it("should test result data", () => {
         axios.get = jest.fn().mockImplementation(() => ({
@@ -36,19 +29,12 @@ describe("getItemsList", () => {
         }));
 
         getItemsList("calculadora").then(result => {
-            expect(result.items.length).toBe(5);
+            expect(result.items.length).toBeGreaterThanOrEqual(5)
         });
     });
 });
 
 describe("getItemsByCategory", () => {
-    it("should test result 404", () => {
-        axios.get = jest.fn().mockImplementation(() => ({ status: 404 }));
-
-        getItemsByCategory("").then(result => {
-        expect(result.status).toBe(404);
-        });
-    });
 
     it("should test result data", () => {
         axios.get = jest
@@ -56,7 +42,7 @@ describe("getItemsByCategory", () => {
         .mockImplementation(() => ({ data: { id: "MLA1039" } }));
 
         getItemsByCategory("MLA1039").then(result => {
-            expect(result.items.length).toBe(5);
+            expect(result.items.length).toBeGreaterThanOrEqual(5)
         });
     });
 });
