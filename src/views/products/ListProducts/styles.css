@@ -1,0 +1,15 @@
+.containerBox_product {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.mainContainer_products {
+    margin: 50px 0px;
+}
+
+.size_image_product {
+    height: 200px;
+}

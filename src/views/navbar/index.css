@@ -1,0 +1,36 @@
+.containerGrid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-start;
+  }
+
+.containerColumn {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.hover_shortcut {
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.hover_shortcut:hover {
+    opacity: 70%;
+}
+
+.title-shortcuts {
+    font-family: 'Proximanova-semibold';
+    margin-bottom: 2px;
+}
+
+.subtitule-shortcuts {
+    font-family: 'Proximanova-regular';
+}

@@ -1,0 +1,36 @@
+
+.li_item {
+    list-style: none;
+    padding: 3px 0px;
+}
+
+.category_item {
+    font-family: 'Proximanova-light';
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3 ease;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.category_item:hover {
+    color: blue;
+}
+
+.subtituleListCategory-style {
+    font-family: 'Proximanova-semibold';
+}
+
+.sizeSubtitule {
+    margin:0px;
+}
+
+.sizeMainSubtitle {
+    margin: 5px 0px;
+}
+
+.extra_field {
+    font-family: 'Proximanova-light';
+}
