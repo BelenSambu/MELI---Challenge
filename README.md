@@ -1,6 +1,6 @@
 # Challenge Mercado Libre
 
-_Challenge de Frontend para MELI. Se pidió realizar un clon de la página de ofertas, se agregó funcionalidad para filtro por categoría y para el buscador. Este challenge está hecho con React para el lado del cliente y del lado del servidor se usó Node.js con express. Utilicé Create React App para inicializar el template del proyecto del lado del cliente para facilitar y agilizar la configuración, también se uso algunos estilos de un framework conocido llamado Materialize-UI (https://material-ui.com/), se usó style-components para variar formas de aplicar los estilos. 
+_Challenge de Frontend para MELI. Se pidió realizar un clon de la página de ofertas, se agregó funcionalidad para filtro por categoría y para el buscador. Este challenge está hecho con React para el lado del cliente y del lado del servidor se usó Node.js con express. Utilicé Create React App para inicializar el template del proyecto del lado del cliente para facilitar y agilizar la configuración, también se uso algunos estilos de un framework conocido llamado Material-UI (https://material-ui.com/), se usó style-components para variar formas de aplicar los estilos. 
 
 ## Setup 🚀
 
