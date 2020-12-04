@@ -10,6 +10,12 @@ _Instalar las dependencias
 npm install
 ```
 
+_Test 
+
+```
+npm run test
+```
+
 **Client/Server**
 
 _Para levantar la app ejecutar el siguiente comando ( configurado en package.json )_
@@ -20,9 +26,9 @@ npm run all
 
 ### Dessarrolo 
 
-_La aplicación está dividida en dos componentes: Toolbar y Products. A su vez ambos tienen vistas con estilos propios para hacerlo más articulado.
+_La aplicación está dividida en dos componentes: Toolbar y Products, quienes a su vez tienen vistas con estilos propios para hacerlo más articulado.
 La consigna del challenge era darle funcionalidad a la página, tener al menos una. Me centré en el listado de categorías y en el buscador. 
-Se me dió un archivo json para extraer algunos datos, el cual usé de forma global, asi también los productos que tenía fijos. Si bien no especificaba en el challenge
-usar la API de MELI, consumi la misma para los dos filtros. Sin embargo al no poder conseguir varios items desde la API sin ponerle una categoría o con id del usuario utilicé los items del json para cargarlos al inicio de la vista del home page. 
-Se usó Router para manejar el ruteo de la app, esto se podría dar un mejor uso al agregarle para ver el detalle del producto en otro path. 
+Se me dió un archivo json para extraer algunos datos, el cual usé de forma global, de él extraje algunos campos. Si bien no especificaba en el challenge
+usar la API de MELI, consumi la misma para los dos filtros de búsqueda y categorías. Sin embargo al no poder conseguir varios items desde la API sin ponerle una categoría o con id del usuario logeado utilicé los items del json para cargarlos al inicio de la vista del home page. 
+Se usó Router para manejar el ruteo de la app, esto se podría dar un mejor uso al agregarle un path para redirigir a cada producto seleccionado por medio de su id.
 
